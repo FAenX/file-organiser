@@ -1,2 +1,5 @@
 # file-organiser
-a python file organiser according to file extension
+---------------------------------------------
+A python file organiser.
+Organize according to file extension
+---------------------------------------------
