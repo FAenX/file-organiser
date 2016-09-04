@@ -22,18 +22,16 @@
 /media/hexxx/to be deleted/Goosebumps 2016
 /media/hexxx/to be deleted/Goosebumps 2016/AUDIO_TS
 /media/hexxx/to be deleted/Goosebumps 2016/VIDEO_TS
+/media/hexxx/to be deleted/Greenleaf.S01E01.HDTV.x264-CRiMSON
+/media/hexxx/to be deleted/Gridlocked.2015.720p.BRRip.x264.AAC-ETRG
 /media/hexxx/to be deleted/Growing up Fisher 1
-/media/hexxx/to be deleted/hexxx
-/media/hexxx/to be deleted/hexxx/.config
-/media/hexxx/to be deleted/hexxx/.config/dconf
-/media/hexxx/to be deleted/hexxx/.config/gtk-3.0
-/media/hexxx/to be deleted/hexxx/.config/nautilus
-/media/hexxx/to be deleted/hexxx/.local
-/media/hexxx/to be deleted/hexxx/.local/share
-/media/hexxx/to be deleted/hexxx/.local/share/gvfs-metadata
 /media/hexxx/to be deleted/Hunters sn1
 /media/hexxx/to be deleted/Joy.2015.DVDScr.XVID.AC3.HQ.Hive-CM8
 /media/hexxx/to be deleted/Justin B Roasting
+/media/hexxx/to be deleted/Music
+/media/hexxx/to be deleted/Music/50_Cent_-_The_Kanan_Tape-[320Kbps]-[2015]-[Official]--(MixJoint.com)
+/media/hexxx/to be deleted/Music/J. Cole – Confession (Deluxe Edition) (2015) 320 KBPS
+/media/hexxx/to be deleted/Music/Kendrick Lamar - untitled unmastered. {WEB-FLAC} (2016)
 /media/hexxx/to be deleted/The big bang theory 7
 /media/hexxx/to be deleted/The big bang theory 7/VIDEO_TS
 /media/hexxx/to be deleted/the returned season 1
@@ -46,6 +44,7 @@
 /media/hexxx/to be deleted/The.Big.Bang.Theory.S08B/VIDEO_TS
 /media/hexxx/to be deleted/The.Blacklist.Sn.3
 /media/hexxx/to be deleted/Ultimate Gift
+/media/hexxx/to be deleted/Uncle.Buck.2016.S01
 /media/hexxx/to be deleted/windows 7
 /media/hexxx/to be deleted/windows 7/boot
 /media/hexxx/to be deleted/windows 7/boot/en-us
@@ -260,9 +259,6 @@
 /media/hexxx/to be deleted/.Trash-0
 /media/hexxx/to be deleted/.Trash-0/files
 /media/hexxx/to be deleted/.Trash-0/info
-/media/hexxx/to be deleted/.Trash-1000
-/media/hexxx/to be deleted/.Trash-1000/files
-/media/hexxx/to be deleted/.Trash-1000/info
 /media/hexxx/to be deleted/6438B0C038B09292
 /media/hexxx/to be deleted/Agent X
 /media/hexxx/to be deleted/all star comedy jam
@@ -290,10 +286,11 @@
 /media/hexxx/to be deleted/kenduiywa
 /media/hexxx/to be deleted/Lennox
 /media/hexxx/to be deleted/manhattan love story
-/media/hexxx/to be deleted/Music
-/media/hexxx/to be deleted/Music/50_Cent_-_The_Kanan_Tape-[320Kbps]-[2015]-[Official]--(MixJoint.com)
-/media/hexxx/to be deleted/Music/J. Cole – Confession (Deluxe Edition) (2015) 320 KBPS
-/media/hexxx/to be deleted/Music/Kendrick Lamar - untitled unmastered. {WEB-FLAC} (2016)
+/media/hexxx/to be deleted/Billions
+/media/hexxx/to be deleted/broklyn 99 sn 3
+/media/hexxx/to be deleted/Citizenfour (2014) [1080p]
+/media/hexxx/to be deleted/Dukto
+/media/hexxx/to be deleted/Elementary Season 2 Complete
 /media/hexxx/to be deleted/MV
 /media/hexxx/to be deleted/MV/american story
 /media/hexxx/to be deleted/MV/Beowulf Return To The Shieldlands
@@ -1308,10 +1305,7 @@
 /media/hexxx/to be deleted/MV/The Grand Budapest Hotel (2014)
 /media/hexxx/to be deleted/MV/The Grand Budapest Hotel (2014)/outlander
 /media/hexxx/to be deleted/MV/The Grand Budapest Hotel (2014)/shannara chronicles
+/media/hexxx/to be deleted/point break
+/media/hexxx/to be deleted/Rogue.Agent.2015.HDRip.XViD-ETRG
 /media/hexxx/to be deleted/roush_hour
 /media/hexxx/to be deleted/SAUTI SOL
-/media/hexxx/to be deleted/Billions
-/media/hexxx/to be deleted/broklyn 99 sn 3
-/media/hexxx/to be deleted/Citizenfour (2014) [1080p]
-/media/hexxx/to be deleted/Dukto
-/media/hexxx/to be deleted/Elementary Season 2 Complete
