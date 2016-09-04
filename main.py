@@ -80,11 +80,12 @@ def extlook(_list,ext,location):
 	print 'file saved as =========>>',opened_file.name			
 	opened_file.close()
 def main():
+	search = str(raw_input('$ > '))
 	if not os.path.exists(write_extfiles_here):
 		os.mkdir(write_extfiles_here)
 	else:
 		pass
-	Walk('/media/hexxx/to be deleted', save_directory_list_to)
+	Walk(search, save_directory_list_to)
 	
 	look(save_file_list_to)
 	dir_list=get_list(save_directory_list_to)

@@ -12,6 +12,7 @@ from datetime import datetime
 import re
 
 search=str(raw_input('enter search criteria eg "explicit" >> '))
+size = int(raw_input('enter size of file eg "500 means > 500" >> '))
 _str=search
 location = os.path.join(os.getcwd(),'test_dir')
 _file=os.path.join(location,'file_list.txt')
@@ -22,6 +23,7 @@ def main():
 	_list = opened_file.readlines()
 	_stripedList=[]
 	_files=[]
+	
 	#print _list
 	match=re.compile(search,re.I)
 	
@@ -39,12 +41,13 @@ def main():
 		filesize=float(os.path.getsize(filepath))/1000000 
 		filesizeDisplay=str(filesize) + 'M'
 		lastaccesed=datetime.fromtimestamp(os.path.getatime(line))
-		if filesize < 500 and match.search(line):
+		if filesize > size and match.search(line):
 			_files.append(filepath)
+			
 			
 
 	
-			print 'size =>>',filesizeDisplay, '	last accessed =>>',lastaccesed, '	Title =>>',filename
+			print 'size =>>',filesizeDisplay, '	last accessed =>>',lastaccesed, '	Title =>>',filepath
 			print '--------------------------------------------------------------'
 	return _files
 		
