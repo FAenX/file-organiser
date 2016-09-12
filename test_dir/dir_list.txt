@@ -262,7 +262,10 @@
 /media/hexxx/to be deleted/.Trash-0
 /media/hexxx/to be deleted/.Trash-0/files
 /media/hexxx/to be deleted/.Trash-0/info
-/media/hexxx/to be deleted/6438B0C038B09292
+/media/hexxx/to be deleted/.Trash-1000
+/media/hexxx/to be deleted/.Trash-1000/files
+/media/hexxx/to be deleted/.Trash-1000/files/6438B0C038B09292
+/media/hexxx/to be deleted/.Trash-1000/info
 /media/hexxx/to be deleted/Agent X
 /media/hexxx/to be deleted/all star comedy jam
 /media/hexxx/to be deleted/Angry Birds 2016 HD-TC x264 AC3-CPG

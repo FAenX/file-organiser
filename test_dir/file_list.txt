@@ -46,9 +46,9 @@
 /media/hexxx/to be deleted/Xmen Apocalypse 2016
 /media/hexxx/to be deleted/Zootopia.2016.720p.HDRiP.LiNE.x264-LEGi0N.mp4
 /media/hexxx/to be deleted/.Trash-0
+/media/hexxx/to be deleted/.Trash-1000
 /media/hexxx/to be deleted/101914026-11-07-11_lynx_telescope.1910x1000.jpg
 /media/hexxx/to be deleted/101914183-135855main_marsconcept-1.1910x1000.jpg
-/media/hexxx/to be deleted/6438B0C038B09292
 /media/hexxx/to be deleted/A Knight's Tale.mp4
 /media/hexxx/to be deleted/About.Last.Night.2014.720p.BluRay.x264.YIFY.mp4
 /media/hexxx/to be deleted/Agent X
@@ -2055,6 +2055,10 @@
 /media/hexxx/to be deleted/.Trash-0/info
 /media/hexxx/to be deleted/.Trash-0/files/miguel adorn.MP4
 /media/hexxx/to be deleted/.Trash-0/info/miguel adorn.MP4.trashinfo
+/media/hexxx/to be deleted/.Trash-1000/files
+/media/hexxx/to be deleted/.Trash-1000/info
+/media/hexxx/to be deleted/.Trash-1000/files/6438B0C038B09292
+/media/hexxx/to be deleted/.Trash-1000/info/6438B0C038B09292.trashinfo
 /media/hexxx/to be deleted/Agent X/Agent.X.US.S01E01.HDTV.x264-LOL.mp4
 /media/hexxx/to be deleted/Agent X/Agent.X.US.S01E02.HDTV.x264-LOL.mp4
 /media/hexxx/to be deleted/Agent X/Agent.X.US.S01E03.HDTV.x264-LOL.mp4
