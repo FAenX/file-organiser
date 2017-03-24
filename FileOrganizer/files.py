@@ -1,22 +1,23 @@
 #! /usr/bin/env python
 
 import os,sys
+import utils
 
 class Files(object):
 
-	def __init__(self, target=None,files=None):
+	def __init__(self, target):
 		self.target=target
-		self.files=files
+		self.files=None
+		self.init(target)
 		
-	def __call__(self,target):
+	def init(self,target):
 		if os.path.exists(target):
 			self.target=target
 			self.files = (os.path.join(path,name) for path, dirs, files in os.walk(self.target) for name in files)
 			return self.files				
 		else:
-			return None 
-	def __iter__(self):				
-		return self.files		 
+			utils.Log.info('no files found')
+			return 			 
 		
 	def __len__(self):
 		return len([a for a in self.files])
@@ -37,23 +38,7 @@ class Files(object):
 		
 
 
-if __name__=='__main__':
-	from colored import fg,bg,attr
 
-	
-	color=bg('black') + fg('white')
-	reset=attr('reset')
-
-	os.system('cls' if os.name=='nt' else 'clear')
-	
-	
-	directory=os.getcwd()
-	
-
-	
-	inst=Files()
-	inst(directory)	
-	for i in inst: print(color+ '',i + reset)
 	
 	
 				

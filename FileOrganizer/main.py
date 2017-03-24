@@ -2,7 +2,7 @@ import os, sys
 from FileOrganizer.files import Files
 import utils
 				
-class Opts(Files):
+class Main(Files):
 	def __init__(self,target):
 		Files.__init__(self,target)
 		self.target=target
@@ -33,7 +33,7 @@ class Opts(Files):
 	def show(self):	
 		
 		for f in self.files:					
-			utils.Log(f)
+			utils.Log.info(f)
 		
 					
 	

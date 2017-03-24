@@ -1,37 +1,52 @@
 #! /usr/bin/env python
-
-from fileAttr import FileAttr
-
-class Utils(object):
+import time
+import os
+import sys		
 	
-	inst=FileAttr()	
+	
+# ------------- #
+# Logging class #
+# ------------- #
+class Log:
+
+    now = time.strftime('%Y-%m-%d %H:%M:%S')
+
+    @staticmethod
+    def info(msg):
+
+        if not Config.app_debug:
+            return
+
+        sys.stdout.write('[%s]: %s\n' % (Log.now, msg.strip()))
+
+    @staticmethod
+    def fatal(msg):
+
+        sys.stdout.write('[%s]: %s\n' % (Log.now, msg.strip()))
+        sys.exit(1)	
+	
+
+#config class
+class Config:
+
+	home = os.path.expanduser('~')
+	filelistdir = os.path.join(home,'File Organizer')
+	
 		
-	def isuser(self,user):
-		if user == os.getuid():
-			return True
-		else:
-			return False
-			
-	def issize(self,size,filepth):
-		if size == Utils.inst.file_size(filepath):
-			return True
-		else:
-			return False
-			
-	def isnotused(self,time,filepath):
-		if time > Utils.inst.last_accessed(filepath):
-			return True
-		else:
-			return False 
+	app_debug=True
+	save=False
 	
+	filelist = os.path.join(filelistdir,'filelist')
+	filelist_list = []
+	EXT=['.mp4','.mp3','.flv','.mkv','.3gp','.avi','.m4a','.pdf']
 	
+	@staticmethod
+	def check_filelist_location():
 	
-if __name__=='__main__':
-	import os,datetime
-	filepath=os.path.abspath(__file__)
-	inst=Utils()
+		if not os.path.exists(Config.filelistdir):
+			Log.info('creating file list directory at %s' % Config.filelistdir)
+			os.mkdir(Config.filelistdir)
 	
-	print(inst.isuser(1000))
-	print(inst.issize(698,filepath))
-	print(inst.isnotused(datetime.datetime.today(),filepath))
-	print(Utils.inst.file_size(filepath))	
+		if os.path.exists(Config.filelist):
+			Log.info('removing %s' % Config.filelist)
+			os.remove(Config.filelist)

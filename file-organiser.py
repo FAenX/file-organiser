@@ -1,7 +1,7 @@
 import os,sys
 from optparse import OptionParser
-from tings.files import Files
-from tings import opts
+from FileOrganizer import main
+from FileOrganizer import utils
 
 class FileOrganizer(object):
 
@@ -9,24 +9,24 @@ class FileOrganizer(object):
 		os.system('cls' if os.name=='nt' else 'clear')
 		
 		parser=OptionParser()
-		parser.add_option('-t','--target',dest='target', help='target directory to be browsed')
+		parser.add_option('-t','--target',dest='target', help='''target directory to be browsed
+																 syntax file-organizer.py -t target''')
 
 		(options,args)=parser.parse_args()
 		if options.target is not None:
-			directory=options.target
+			target=options.target
+		
 		else:
-			parser.error('you must supply target')
+			parser.error('try file-organizer.py -h for help')
 			sys.exit() 
-		save=False	
 		
-		if 's' in args:
-			save=True
+		utils.Config.check_filelist_location()  
 		
-		if save:
-			opts.save(directory)
+				
+		main.Main(target)
 		
-		else:
-			opts.show(directory)
+		
+		
 			
 	def __call__(self):
 		return self.__init__()

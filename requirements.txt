@@ -1,0 +1,2 @@
+NaiveBayes==1.0.0
+colored==1.3.4
